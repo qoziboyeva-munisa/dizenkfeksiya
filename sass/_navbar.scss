@@ -1,0 +1,44 @@
+   
+   .navbar__container{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+  }
+  .navbar__list{
+      width: 300px;
+      display: flex;
+      justify-content: space-between; 
+  }
+  .navbar__item{
+      list-style: none;
+  }
+  .navbar__link{
+      padding: 0px 10px;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 14px;
+      font-family: "SF Pro Display",sans-serif;
+      color:#666666;
+  
+  }
+  .navbar__link:hover{
+    color: black;
+    border-bottom: 2px solid #000;
+    width: 50px;
+    padding-bottom: 5px;
+  }
+  .navbar__link__name{
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: "SF Pro Display",sans-serif;
+      padding: 6px 50px;
+      color: black;
+      border: 1px solid #535252;
+      border-radius: 20px;
+  }
+  .navbar__link__name:hover{
+    background-color: blue;
+    border-radius: 20px;
+    color: #fff;
+  }

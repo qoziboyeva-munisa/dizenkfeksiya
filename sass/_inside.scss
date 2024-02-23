@@ -1,0 +1,32 @@
+
+.inside__container{
+    border-radius: 20px;
+    background-color: rgb(31, 224, 160);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.inside__box{
+    width: 400px;
+}
+.inside__title{
+    font-family: "promt",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+
+}
+.inside__link{
+    text-decoration: none;
+    color: black;
+    font-family: "promt",sans-serif;
+    padding: 6px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(47, 46, 46);
+}
+.inside__link:hover{
+    background-color: blue;
+    border: 0px;
+}

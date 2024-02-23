@@ -1,0 +1,63 @@
+ 
+ 
+ .pricing__container{
+    width: 1000px;
+    height: 550px;
+    padding: 50px 0px;
+ }
+ .pricing__list{
+    display: flex;
+    justify-content: space-between;
+ }
+ .pricing__item{
+   position: relative;
+   padding: 20px;
+   border-radius: 20px;
+   list-style: none;
+   background-color:  #F3F6F6;
+   width: 300px;
+   height: 300px;
+ }
+ .pricing__item:hover{
+   background-color: aqua;
+ }
+ .pricing__title{
+   font-family: "SF Pro Display",sans-serif;
+   font-size: 40px;
+   line-height: 40px;
+   font-weight: 700;
+ }
+ .pricing__text{
+   padding-bottom: 15px;
+   font-family: "SF Pro Display",sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: #666666;
+ }
+ .pricing__title__name{
+   font-family:"promt",sans-serif;
+   font-weight:700 ;
+   font-size: 26px;
+   line-height: 35px;
+ }
+ .pricing__text__name{
+   padding: 10px 0px;
+   font-family: "SF Pro Display",sans-serif;
+   font-weight: 500px ;
+   font-size: 14px;
+   line-height: 15px;
+   color: #056AC7;
+ }
+ .pricing__text__son{
+   font-family: "SF Pro Display",sans-serif;
+   font-weight: 500px ;
+   font-size: 14px;
+   line-height: 15px;
+   color: #056AC7;
+ }
+ .pricing__img{
+   position: absolute;
+   bottom: 20px;
+   right: 20px;
+ }

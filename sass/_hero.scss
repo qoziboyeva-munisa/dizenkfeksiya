@@ -1,0 +1,43 @@
+
+
+    
+.hero__container{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+   }
+   .hero__hr{
+     width: 1000px;
+   }
+   .hero__list{
+     padding-top: 30px;
+     width: 900px;
+      display: flex;
+      justify-content: space-between;
+   }
+   .hero__title{
+     padding-bottom: 15px;
+     font-family: "SF Pro Display",sans-serif;
+     font-size: 36px;
+     font-family: 40px;
+     color: #020C31;
+   }
+   .hero__item{
+     list-style: none;
+     width: 280px;
+   }
+   .hero__title__name{
+     padding: 10px 0px;
+     font-family: "SF Pro Display",sans-serif;
+     font-size: 24px;
+     line-height: 20px;
+   
+   }
+   .hero__text{
+     font-family: "SF Pro Display",sans-serif;
+     font-size: 14px;
+     line-height: 20px;
+     color:  #676D83;
+   }

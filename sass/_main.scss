@@ -1,0 +1,44 @@
+
+
+  .main__container{
+    width: 1000px;
+    background-image: url(../img/disinfection-sanitization-spraying-900x450\ \(1\).png);
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+    
+  }
+  .main__box{
+    position: absolute;
+    right: 50px;
+    width: 300px;
+  }
+  .main__title{
+    color: #fff;
+    font-family: "SF Pro Display",sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .main__text{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    width: 250px;
+    font-size: 12px;
+    font-family: "SF Pro Display",sans-serif;
+    line-height: 20px;
+    color: #fff;
+  }
+  .main__btn{
+    font-family: "SF Pro Display",sans-serif;
+    padding: 10px 40px;
+    border: 1px solid #676D83;
+    border-radius: 20px;
+    background-color: #fff;
+  }
+  .main__btn:hover{
+    border: 0px;
+    background-color: #3375FF;
+    color: #fff;
+  }

@@ -1,0 +1,41 @@
+
+.header__container{
+     height: 500px;
+     display: flex;
+     justify-content: space-between;
+  }
+  .header__title{
+    font-size: 50px;
+    font-family:"SF Pro Display",sans-serif;
+    line-height: 50px;
+    border: 1px; 
+     color: #3375FF;
+  }
+  .header__wrapper{
+    width: 280px;
+  }
+  .header__text{
+    padding-bottom: 100px;
+    line-height: 20px;
+    font-size: 14px;
+    color:  #676D83;
+    font-family:"SF Pro Display",sans-serif ;
+  }
+  .header__box{
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__btn{
+    padding: 6px 30px;
+    border-radius: 20px;
+    border: 1px solid #535252;
+    background-color: #fff;
+    font-family: "SF Pro Display",sans-serif;
+    font-size: 14px;
+  }
+  .header__btn:hover{
+    color: #fff;
+    background-color: #3375FF;
+    border: 0px;
+  }
